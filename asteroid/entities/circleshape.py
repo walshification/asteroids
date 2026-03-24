@@ -5,6 +5,10 @@ import pygame
 class CircleShape(pygame.sprite.Sprite):
     containers: tuple[pygame.sprite.Group, ...]
 
+    position: pygame.Vector2
+    velocity: pygame.Vector2
+    radius: float
+
     def __init__(self, x, y, radius):
         # we will be using this later
         if hasattr(self, "containers"):
