@@ -1,7 +1,7 @@
 import pygame
 
-from asteroid.entities.circleshape import CircleShape
-from asteroid.constants import (
+from asteroids.entities.circleshape import CircleShape
+from asteroids.constants import (
     LINE_WIDTH,
     PLAYER_RADIUS,
     PLAYER_SHOOT_COOLDOWN_SECONDS,
@@ -10,7 +10,7 @@ from asteroid.constants import (
     PLAYER_TURN_SPEED,
     SHOT_RADIUS,
 )
-from asteroid.entities.shot import Shot
+from asteroids.entities.shot import Shot
 
 
 class Player(CircleShape):

@@ -2,8 +2,8 @@ import pygame
 import random
 from collections.abc import Callable
 
-from asteroid.entities import Asteroid
-from asteroid.constants import *
+from asteroids.entities import Asteroid
+from asteroids.constants import *
 
 
 class AsteroidField(pygame.sprite.Sprite):

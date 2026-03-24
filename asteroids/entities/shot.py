@@ -1,7 +1,7 @@
 import pygame
 
-from asteroid.constants import LINE_WIDTH
-from asteroid.entities.circleshape import CircleShape
+from asteroids.constants import LINE_WIDTH
+from asteroids.entities.circleshape import CircleShape
 
 
 class Shot(CircleShape):
